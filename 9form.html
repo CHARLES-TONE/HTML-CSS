@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>JOB APPLICATION FORM</legend>
+        <p>Enter only the correct details!</p>
+<label for="Firstname">First Name:</label>
+<input type="text" id="Firstname"name="Firstname" placeholder="Andrew" minlength="3" required>
+<br>
+
+<label for="Secondname">Second Name:</label>
+<input type="text" id="Secondname" name="Secondname" placeholder="Lokisie" minlength="3" required>
+<br>
+
+<label for="Surname">Surname:</label>
+<input type="text" id="Surname" name="Surname" placeholder="Ladipo" minlength="3" required>
+<br>
+
+<label for="telno">Telephone Number</label>
+<input type="tel" id="telno" name="telno" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" maxlength="10" required>
+<br>
+
+<label for="email">Email Address</label>
+<input type="email" id="email" name="email" placeholder="example@outlook.com" required>
+<br>
+
+<label for="gender">Gender</label>
+<input type="radio" id="gender" name="gender" value="Male" required>Male
+<input type="radio" id="gender" name="gender" value="Female" required>Female
+<br>
+
+<label for="bday">Birthday</label>
+<input type="date" id="bday" name="bday"required>
+<br>
+
+<label for="YExp">Years of Experience</label>
+<input type="number" id="YExp" name="YExp" min="0">
+
+<p>Select the job you are applying for:</p>
+
+<label for="job">Mechanical Engineer</label>
+<input type="checkbox" id="job" name="job" value="Mechanical Engineer">
+<br>
+
+<label for="job">Electrical Engineer</label>
+<input type="checkbox" id="job" name="job" value="Electrical Engineer">
+<br>
+
+<label for="job">Civil Engineer</label>
+<input type="checkbox" id="job" name="job" value="Civil Engineer">
+<br>
+
+<label for="job">Software Engineer</label>
+<input type="checkbox" id="job" name="job" value="Software Engineer">
+<br>
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password" placeholder="*********" minlength="5" maxlength="8" required>
+<br><br>
+
+<label for="passport">Passport Photo:</label>
+<input type="file" id="passport" accept="image/png, image/jpeg, image/jpg">
+<br>
+
+<label for="payment">Payment Details</label>
+<select id="payment">
+<option id="mpesa">MPESA</option>
+<option id="VISA">VISA</option>
+<option id="PAYPAL">PAYPAL</option>
+<option id="CASH">CASH</option>
+<option id="None">None of the Above</option>
+</select>
+<p>If you are sure you have entered the correct details, you can submit the form by clicking the SUBMIT button below</p>
+
+<button>SUBMIT</button><br>
+<button>RESET</button>
+<br>
+<br>
+
+<label for="comment">Comment</label>
+<textarea id="comment" rows="3" cols="25"></textarea>
+</fieldset>
+
+    </form>
+</body>
+</html>

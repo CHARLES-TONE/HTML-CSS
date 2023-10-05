@@ -1,0 +1,72 @@
+
+body{
+background-image: url(bluebg.jpg); 
+background-position: initial;
+background-attachment: fixed;
+background-repeat:repeat-x;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT',
+ Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 200;
+
+}
+.p1{
+    color:rgb(187, 33, 33);
+    border-style: double;
+    border-color: black;
+    background-color: rgb(211, 160, 98);
+    border-radius: 20px;
+    width: 500px;
+    height:150px;
+    padding-left: 20px;
+}
+
+#p2{
+    border: black;
+    border-radius: 15px 10px;
+    border-style: dashed;
+    color:blue;
+    width: 500px;
+    height:150px;
+    background-color: chartreuse; 
+    padding-left: 20px;
+}
+button{
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 
+    'Arial Narrow Bold', sans-serif;
+     font-weight: 200;
+     align-items: right;
+     background-color: chocolate;
+}
+
+#div1{
+    color: blue;
+    border: black;
+    border-style: dashed;
+    border-radius: 40px 10px;
+    background-color: chartreuse;
+    margin-top: 5px;
+    width: 650px;
+    height:150px;
+    padding-left: 2px;
+    
+}
+
+img{
+float:right;
+opacity: 1;
+filter:brightness(1);
+filter:invert(0);
+filter:hue-rotate(30)
+}
+
+#span{
+    background-color: rgb(98, 91, 105);
+    border: black;
+    border-style: groove;
+    border-radius: 10px;
+
+}
+

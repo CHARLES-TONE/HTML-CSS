@@ -1,0 +1,87 @@
+body{
+    background-color: darkgrey;
+}
+
+#box{
+    width:250px;
+    height:250px;
+    background-color: red;
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+    'Trebuchet MS', sans-serif;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name:colorChange;
+    animation-duration: 5s;
+    animation-iteration-count: 4;/*if you want it to perform infinitely set it to infiite*/
+    animation-direction: normal;/*There is also reverse and alternate and normal, alternate-reverse*/
+    animation-play-state: running;
+}
+
+@keyframes slideUp{
+    from{
+        transform: translateY(100px)
+    }
+}
+
+@keyframes slideDown{
+    to{
+        transform: translateY(100px)
+    }
+}
+
+@keyframes rotate{
+    25%{/*for one rotation keep it to 100%
+        25% it will do the animation then the remaining 75% of
+         the time it will take to revert back to its original position*/
+        transform: rotateY(360deg)/*try for Y and Z*/
+    }
+}
+
+@keyframes magnify{/*animation to grow*/
+    100%{
+        transform: scale(2,2)/*a scale of say 2,2 enables it to magnify uniformly both on the X and Y axes*/
+    }
+}
+
+@keyframes shrink{
+    25%{
+        transform: scale(0.5,0.5)
+    }
+}
+
+@keyframes fade{
+    100%{
+        opacity:0;
+    }
+}
+
+@keyframes colorChange{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color:grey;
+    }
+    
+    50%{
+        background-color:yellow;
+    }
+    
+    75%{
+        background-color: green;
+    }
+
+    100%{
+        background-color:blue;
+    }
+
+}
+
+@keyframes glow{
+    50%{box-shadow:0px 0px 50px chartreuse ;}
+    
+}

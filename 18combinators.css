@@ -1,0 +1,6 @@
+#div1{
+    border:2px solid;
+}
+#div1~p{
+    background-color: chartreuse;
+}

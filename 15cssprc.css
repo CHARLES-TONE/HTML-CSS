@@ -1,0 +1,73 @@
+h1{
+    background-color: chartreuse;
+    border: red;
+    border-style: solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 15px;
+    box-shadow: 130px cyan;
+    text-align: center;
+    text-shadow: 1px 2px 3px blue;
+    box-shadow: 5px 5px 7px blueviolet;
+}
+
+body{
+background-image: url(bluebg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin:30px;
+
+
+}
+
+#div1{
+    box-shadow: 12px 15px 10px rgb(221, 224, 7);
+background-color: darkgrey;
+padding-left: 40px;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 
+'Trebuchet MS', sans-serif;
+border:green;
+border-style: dotted;
+border-radius: 30px;
+text-shadow: 20px cyan ;
+text-transform: capitalize;
+margin: auto;
+
+}
+.p1{
+background-color: rgb(196, 196, 75);
+border:purple;
+border-style: dashed;
+border-radius: 14px;
+padding-left: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', 
+Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+
+}
+
+#div3{
+background-color: blueviolet;
+text-align: center;
+border-style: dashed;
+border-radius: 5px;
+box-shadow: 3px 7px 10px red;
+margin-left: 30px;
+}
+
+/*In this, I am going to explore overflow properties*/
+#div5{
+    height:80px;
+    font-size: 12px bold;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', sans-serif;
+border-style: solid;
+border-color: black;
+background-color: chartreuse;
+border-radius: 20px;
+margin-top: 20px;
+overflow: scroll;/*option auto also works well here*/
+
+}

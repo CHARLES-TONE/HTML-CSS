@@ -1,0 +1,29 @@
+img{
+    height:150px;
+    width:150px;
+}
+body{
+    background-color: rgb(153, 153, 207);
+
+}
+
+
+.gallery{
+    display:inline-block;
+    border: 1px solid chartreuse;
+    border-radius: 40px;
+    margin: 5px;
+    box-shadow: 30px black ;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(231, 15, 58);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.gallery:hover{
+    color:rgb(9, 255, 0);
+}

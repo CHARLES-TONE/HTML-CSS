@@ -1,0 +1,55 @@
+/*pseudo elements*/
+h1::first-letter{
+font-size: 2em;
+font-style:italic;
+color:blue;
+}
+p::first-line{
+    color:rgb(212, 121, 10);
+
+}
+p::selection{
+    color:rgb(50, 197, 13);
+    background-color: grey;
+}
+
+#fruit li::before{ /*this applies to all the fruits*/
+content:"🌟";
+
+}
+
+/*To put specific attributes to the said fruits, you utilize the 'after' psudo element*/
+#apple::after{
+    content:"🍎";
+}
+
+#orange::after{
+    content:"🍊";
+}
+
+#mellon::after{
+    content:"🍉";
+}
+
+#papaya::after{
+    content:"🍏";
+}
+
+#mango::after{
+    content:"🥭";
+}
+
+#banana::after{
+    content:"🍌";
+}
+
+#fruit li::marker{
+    content:"✔";
+    color:red;
+    font-size: 1.2 em;
+
+
+
+}
+
+

@@ -1,0 +1,21 @@
+a:link{
+color:blue;
+
+}
+
+
+a:hover{
+color:red;
+text-decoration: underline;
+font-size: 1.2em;
+}
+
+a:visited{
+color:purple;
+}
+
+
+
+footer{
+    background-color: mediumpurple;
+}
